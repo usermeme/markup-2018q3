@@ -1,0 +1,97 @@
+/* base settings */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', Arial, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* header settings */
+
+h1 {
+  position: absolute;
+  left: -9999px;
+}
+
+header {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.85), 
+      rgba(0, 0, 0, 0.85)
+    ),
+    url('../img/Header\ BG.png');
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 940px;
+}
+
+.heading {
+  height: 85px;
+  border-bottom: 2px solid #272727
+}
+
+.logo {
+  float: left;
+  margin-top:30px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin-top: 29px;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  padding-bottom: 36px;
+  border-bottom: 2px solid #fff;
+}
+
+.hello {
+  margin: 350px auto 0;
+  max-width: 445px;
+  text-align: center;
+  color: #fff;
+}
+
+.hello span {
+  display: block;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 29px
+}
+
+.hello p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.375em;
+  line-height: 1.375em;
+}
